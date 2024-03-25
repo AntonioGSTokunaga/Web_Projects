@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    
+}
+h1{
+    text-align: center;
+}
+div {
+    color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    
+}
