@@ -1,0 +1,23 @@
+@keyframes countdown {
+    0% { color: blue; }
+    100% { color: red; }
+
+  }
+@keyframes countdown {
+  0%   { content: "00:00:10"; }
+  10%  { content: "00:00:09"; }
+  20%  { content: "00:00:08"; }
+  30%  { content: "00:00:07"; }
+  40%  { content: "00:00:06"; }
+  50%  { content: "00:00:05"; }
+  60%  { content: "00:00:04"; }
+  70%  { content: "00:00:03"; }
+  80%  { content: "00:00:02"; }
+  90%  { content: "00:00:01"; }
+  100% { content: "00:00:00"; }
+}
+  .time {
+    animation-name: countdown;
+    animation-duration: 10s;
+    animation: countdown 10s linear infinite;
+  }
